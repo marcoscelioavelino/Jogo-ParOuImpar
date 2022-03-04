@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="function.js"></script>
+    <title>Jogo do PAR OU ÍMPAR</title>
+</head>
+
+<body id="bg">
+
+    <header class="boxTitulo">
+        <p class="titulo">JOGANDO PAR OU ÍMPAR</p>  
+    </br>
+        <p class="subtitulo">Digite um número entre 0 e 256 e escolha a opção Par ou impar. (O computador irá gerar um número aleatório para jogar). </p>
+    </br>
+    
+    </header>
+    <main class="menu">
+         <section class="secao1">
+  
+             <input class="seunumero" type="number" id="numPlayer"> 
+
+             <button class="botao" onclick="par()">Par</button>
+             <button class="botao" onclick="impar()">Ímpar</button>
+    
+        </section>      
+    </br>
+        <section class="secao2">
+           <div class="txtnumeros">Seu número: <div class="nResultados" id="seuN"></div>  </div>
+           <div class="txtnumeros">Número do PC: <div class="nResultados" id="nPc"></div> </div>
+           <div class="txtnumeros">Soma dos números: <div class="nResultados" id="sN"></div> </div>
+           <div class="txtnumeros">Resultado do jogo: <div class="nResultados" id="resultado"></div> </div>
+        </section>
+
+    </main>
+
+    
+</body>
+
+</html>
